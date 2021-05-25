@@ -3,82 +3,91 @@ body {
     padding-top: 800px;
     text-align: center;
     background-color: aquamarine
-    
-    
 }
-.profile_picture{
+
+.profile_picture {
     width: 250px;
     border-radius: 50%;
     margin-bottom: 65px;
-    margin-top:80px;
+    margin-top: 80px;
 }
+
 #home {
-    position:absolute;
+    position: absolute;
     overflow: hidden;
-    height:800px;
-    left:0px;
-    top:0px;
-    bottom:0px;
-    right:0px; 
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
     display: table;
-    width:100%;
-    height:100%; 
+    width: 100%;
+    height: 100%;
     z-index: 1;
     background: linear-gradient(purple 0%, aqua 60%, orange 100%);
 }
-.maindiv{
- display: table-cell;
+
+.maindiv {
+    display: table-cell;
     position: relative;
-    text-align:center;
+    text-align: center;
     vertical-align: middle;
-    
-    
+
+
 }
+
 h1 {
     font-family: 'Pacifico', cursive;
 }
+
 h2 {
     font-family: 'Lobster', cursive;
 }
+
 .line {
     height: 6px;
     background-color: black;
-        width:80px;
+    width: 80px;
     margin: 8px auto;
 }
+
 p {
- max-width: 450px;
- margin:25px auto;
+    max-width: 450px;
+    margin: 25px auto;
     line-height: 1.5;
-        font-size:20px; 
+    font-size: 20px;
 }
+
 .menu {
     list-style: none;
-    position:fixed;
-    top:10px;
-    right:30px;
+    position: fixed;
+    top: 10px;
+    right: 30px;
     z-index: 10;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .link {
-    float:left;
+    float: left;
     padding-left: 9px;
     padding-right: 9px;
     padding-top: 5px;
     padding-top: 5px;
-    color:aqua;
-    font-size:20px;
+    color: aqua;
+    font-size: 20px;
 }
-.link:hover{
+
+.link:hover {
     font-size: 30px;
-    background-color:palegreen;
-    color:darkblue;
-    font-weight:bold;
+    background-color: palegreen;
+    color: darkblue;
+    font-weight: bold;
 }
+
 html {
     scroll-behavior: smooth;
 }
-img:hover{
+
+img:hover {
     transform: scale(1.2);
 }
-
